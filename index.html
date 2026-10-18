@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nest Notification Bridge</title>
+  <meta name="description" content="A private, single-user bridge for notifications and authorized access to the owner's Google Nest devices through Google's Smart Device Management API.">
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f7f7f5; color: #202124; }
+    main { max-width: 760px; margin: 0 auto; padding: 56px 24px; }
+    .card { background: #fff; border: 1px solid #dadce0; border-radius: 16px; padding: 36px; }
+    h1 { margin-top: 0; font-size: 2.2rem; line-height: 1.15; }
+    h2 { margin-top: 2rem; }
+    p, li { line-height: 1.65; }
+    a { color: #0b57d0; }
+    .muted { color: #5f6368; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Nest Notification Bridge</h1>
+      <p>Nest Notification Bridge is a personal, non-commercial, single-user software project. It connects the project owner's own Google Nest devices to the owner's private home server so the owner can receive device notifications and use camera and device features that the owner has explicitly authorized.</p>
+
+      <h2>How it works</h2>
+      <p>The bridge uses Google's Smart Device Management API and Google sign-in. During authorization, Google shows the requested access and the account owner chooses which home and devices to share with the project. The bridge communicates with Google's API only to provide the requested functionality to that account owner.</p>
+
+      <h2>What it accesses</h2>
+      <p>Depending on the devices authorized by the owner, the API can provide device names, rooms, device status and traits, camera event information, snapshots, and live-stream connection details. The bridge does not provide a public service and does not create accounts for other people.</p>
+
+      <h2>Control and privacy</h2>
+      <p>The owner can revoke this project's access at any time from the Google Account's third-party access settings. Details about information handling are in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+      <p class="muted">This is an independent personal project and is not affiliated with or endorsed by Google or Google Nest.</p>
+    </section>
+  </main>
+</body>
+</html>
